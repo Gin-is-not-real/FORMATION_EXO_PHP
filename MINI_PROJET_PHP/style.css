@@ -1,0 +1,47 @@
+body {
+    --pad: 2%;
+    --mar: 2%;
+    margin: var(--mar);
+}
+
+h1 {
+    margin: var(--mar);
+}
+h2, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+#section-checkbox {
+    border: 1px solid black;
+    margin: var(--mar);
+    padding: var(--pad);
+    width: max-content;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+
+}
+form input {
+    margin: var(--mar);
+    border: 1px solid black;
+}
+
+#section-resultats {
+    display: flex;
+    flex-direction: row;
+    margin: var(--mar);
+}
+#section-resultats div {
+    padding: var(--pad);
+    margin: var(--mar);
+    margin: 0 var(--pad) 0 0;
+    border: 1px solid black;
+}
+
+#section-resultats h4 {
+    margin: 10% auto;
+}
+
