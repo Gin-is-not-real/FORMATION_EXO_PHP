@@ -13,29 +13,8 @@
     <main>
 
         <section id="tables">
-            <h1>Tables de Multiplications - Etape 3</h1>
+                <h1>Tables de Multiplications - Etape 3</h1>
 
-            <!-- <form action="" method="post">
-                <label for="user-input">Choisir une table: </label>
-                <input type="number" name="user-input" min="0" max="10" id="table-nbr" value=3>
-
-                <input type="submit" value="ok">
-            </form> -->
-
-            <?php 
-                // $user_nbr = 3;
-
-                // if(isset($_POST['user-input'])) {
-                //     $user_nbr = htmlspecialchars($_POST['user-input']);
-                // }
-
-                // echo '<h3>Afficher la table de ' . $user_nbr . '</h3>'; 
-
-                // for($i = 0; $i <= 10; $i++) {
-                //     echo $i . " * " . $user_nbr . " = " . ($i * $user_nbr) . '</br>'; 
-                // }
-
-            ?>
             <section id="section-checkbox">
                 <h4>Choisir une ou plusieures table(s):</h4>
                 <form action="" method="post">
@@ -67,6 +46,32 @@
                 }
 
             ?>
+            </section>
+        </section>
+        <h1>Tables de Multiplications - Etapes 1 et 2</h1>
+
+        <section id="section-1">
+            <form action="" method="post">
+                    <label for="user-input">Choisir une table: </label>
+                    <input type="number" name="user-input" min="0" max="10" id="table-nbr" value=3>
+
+                    <input type="submit" value="ok">
+                </form>
+
+                <?php 
+                    $user_nbr = 3;
+
+                    if(isset($_POST['user-input'])) {
+                        $user_nbr = htmlspecialchars($_POST['user-input']);
+                    }
+
+                    echo '<h4>Table de ' . $user_nbr . '</h4><p>'; 
+
+                    for($i = 0; $i <= 10; $i++) {
+                        echo $i . " * " . $user_nbr . " = " . ($i * $user_nbr) . '</br>'; 
+                    }
+                ?>
+                </p>
             </section>
         </section>
     </main>

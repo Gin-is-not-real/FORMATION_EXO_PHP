@@ -12,6 +12,11 @@ h2, h4 {
     padding: 0;
 }
 
+#section-1 p {
+    border: 1px solid black;
+    margin: var(--mar);
+    padding: var(--pad);
+}
 #section-checkbox {
     border: 1px solid black;
     margin: var(--mar);
