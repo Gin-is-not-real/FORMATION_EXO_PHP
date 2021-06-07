@@ -1,0 +1,17 @@
+1) Créez une classe Film avec les attributs :
+	id, nom, réalisateur, année
+	Un constructeur
+	Les getters et setters associés
+
+2) Créez une classe Calculatrice qui pourra faire, pour deux chiffres qui lui seront passées en paramètres de ses méthodes :
+	Une addition
+	Une soustraction
+	Une multiplication
+	Une division
+	Un modulo
+En revanche je dois pouvoir me servir de ses méthodes sans instancier la classe Calculatrice. Trouvez comment.
+
+3) Créez une classe Animal qui ne contiendra qu'une méthode respire() qui fera un simple "echo".
+Ensuite créez une classe Oiseau et une classe Reptile qui hériteront de la classe Animal.
+
+Ces dernières auront comme attribut un nom et un âge et chacune aura une méthode spécifique qui fera un "echo" (comme voler() pour les oiseaux ou avoirDesEcailles() pour les reptiles). Créez ensuite une classe Aigle et Faucon, ainsi qu'une classe Tortue et Crocodile. Ces classes hériteront respectivement d'Oiseau et de Reptile. Vous instancierez un nouvel Aigle, Faucon, Tortue et Crocodile et ferez en sorte que leur constructeur appelle le constructeur de leur parent afin d'y préciser leur nom et âge. Vérifiez ensuite les méthodes de vos instances.

@@ -16,9 +16,10 @@
                 <h1>Tables de Multiplications - Etape 3</h1>
 
             <section id="section-checkbox">
+
                 <h4>Choisir une ou plusieures table(s):</h4>
+                
                 <form action="" method="post">
-                    <label for="nbrs"> </label>
                     <?php 
                         for($i = 0; $i <= 10; $i++) {
                             echo '<br><p><input type="checkbox" name="nbrs[]" value=' . $i . '>' . $i . '</p>';
@@ -48,6 +49,7 @@
             ?>
             </section>
         </section>
+
         <h1>Tables de Multiplications - Etapes 1 et 2</h1>
 
         <section id="section-1">
