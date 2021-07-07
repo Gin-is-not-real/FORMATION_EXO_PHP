@@ -30,3 +30,27 @@ $calc = new class {
         return $chiffre1 % $chiffre2;
     }
 };
+
+//statics
+class Calculatrice2 {
+    public static function addition($chiffre1, $chiffre2) {
+        echo $chiffre1 . ' + ' . $chiffre2 . ' = ' . ($chiffre1 + $chiffre2) . '<br>';
+        return $chiffre1 + $chiffre2;
+    }
+    public static function soustraction($chiffre1, $chiffre2) {
+        echo $chiffre1 . ' - ' . $chiffre2 . ' = ' . ($chiffre1 - $chiffre2) . '<br>';
+        return $chiffre1 - $chiffre2;
+    }
+    public static function multiplication($chiffre1, $chiffre2) {
+        echo $chiffre1 . ' * ' . $chiffre2 . ' = ' . ($chiffre1 * $chiffre2) . '<br>';
+        return $chiffre1 * $chiffre2;
+    }
+    public static function division($chiffre1, $chiffre2) {
+        echo $chiffre1 . ' / ' . $chiffre2 . ' = ' . ($chiffre1 / $chiffre2) . '<br>';
+        return $chiffre1 / $chiffre2;
+    }
+    public static function modulo($chiffre1, $chiffre2) {
+        echo $chiffre1 . ' % ' . $chiffre2 . ' = ' . ($chiffre1 % $chiffre2) . '<br>';
+        return $chiffre1 % $chiffre2;
+    }
+};

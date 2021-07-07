@@ -35,18 +35,19 @@
             ?>
         </div>
 
-        <div class="hidden" id="calculatrice">
+        <div class="" id="calculatrice">
             <p>calculatrice:</p>
             <?php
                 $ch1 = 5;
-                $ch2 = 5;
+                $ch2 = 10;
                 echo '<p>' . $ch1 . ' ? ' . $ch2 . '</p><br><br>';
 
-                $calc->addition($ch1, $ch2);
-                $calc->soustraction($ch1, $ch2);
-                $calc->multiplication($ch1, $ch2);
-                $calc->division($ch1, $ch2);
-                $calc->modulo($ch1, $ch2);
+                // $calc->addition($ch1, $ch2);
+                // $calc->soustraction($ch1, $ch2);
+                // $calc->multiplication($ch1, $ch2);
+                // $calc->division($ch1, $ch2);
+                // $calc->modulo($ch1, $ch2);
+                echo Calculatrice2::addition($ch1, $ch2);
             ?>
         </div>
 
